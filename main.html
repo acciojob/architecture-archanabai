@@ -1,16 +1,55 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <style>
+        #newtble {
+            width: 1100px;
+        }
+        
+        .imageContainer img {
+            width: 100%;
+            height: auto;
+        }
+        
+/*         .content {
+            padding: 10px;
+        } */
+    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <table id="newtble">
+        <thead>
+            <tr>
+                <th>Row</th>
+                <th width="200">First Column</th>
+                <th width="600">Middle Column</th>
+                <th width="200">Last Column</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>
+                    <div class="imageContainer"><img src="https://images.unsplash.com/photo-1691836691308-868a5db822c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="girl image"></div>
+                </td>
+                <td class="content">A girl image</td>
+                <td>
+                    <div class="imageContainer"><img src="https://images.unsplash.com/photo-1691796854007-2e7a11656da8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Breakfast"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    <div class="imageContainer"><img src="https://images.unsplash.com/photo-1687360441205-807780a8e5db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="happy face"></div>
+                </td>
+                <td class="content">A girl with a beautiful smile</td>
+                <td>
+                    <div class="imageContainer"><img src="https://images.unsplash.com/photo-1687360440747-cafed773d446?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw4M3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="beach look"></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
